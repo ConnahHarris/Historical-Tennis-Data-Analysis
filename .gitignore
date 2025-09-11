@@ -1,0 +1,21 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore backup folder
+Backups/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment files
+.env
+.venv/
+*.env
+*venv
+
+# Ignore system files
+.DS_Store
+Thumbs.db

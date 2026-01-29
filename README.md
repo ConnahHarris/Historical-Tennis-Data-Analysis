@@ -37,9 +37,8 @@ Secondly, a surface ELO was calculated in the same way as the ELO but only calcu
 
 
 | | | |
-|:--:|:--:|:--:|
 | ![](Figures/age_difference.png) | ![](Figures/height_difference.png) | ![](Figures/elo_difference.png) |
-| ![](Figures/surface_elo_difference) | ![](Figures/head_2_head_difference.png) | ![](Figures/career_wins_difference.png) |
+| ![](Figures/surface_elo_difference.png) | ![](Figures/head_2_head_difference.png) | ![](Figures/career_wins_difference.png) |
 
 age_difference.png
 height_difference.png

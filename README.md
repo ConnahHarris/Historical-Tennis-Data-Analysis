@@ -1,5 +1,9 @@
 # Historical Tennis Match Outcome Prediction Project
 
+<p align="center">
+  <img src="figures/robot_tennis.png" width="400">
+</p>
+
 ## Project Overview
 
 This project explores historical ATP tennis match data to identify the key factors that influence match outcomes and to build a machine learning model capable of predicting the winner of future matches.

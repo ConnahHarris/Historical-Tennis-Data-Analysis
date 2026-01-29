@@ -18,8 +18,21 @@ The data was first cleaned by removing or updating anomolous entries found in th
 
 After the completion of the data cleaning the match entries were ordered heirarchically using the start date of the tournament and followed by the round of the tournament ("Q1", "Q2", "Q3", "R128", "R64", "R32", "R16", "QF", "SF", "F"). 
 
-The first objective was to engineer features which could be utilised by the model. The first feature to be engineer was ELO. This tool is most classically used in chess as a way to rank players by their ability. The equation for calculating the ELO was XX. 
+The first objective was to engineer features which could be utilised by the model. The first feature to be engineer was ELO. This tool is most classically used in chess as a way to rank players by their ability. The equations for calculating ELO are shown below. 
 
-$P(A) = \frac{1}{1 + 10^{-(E_A - E_B)/400}}$
+In this context, Elo ratings are adapted to tennis in order to quantify
+player strength prior to each match. The expected probability of Player 1
+winning a match is calculated as:
+
+$P_1 = \frac{1}{1 + 10^{(E_2 - E_1)/400}}$
+
+Following the match, Elo ratings are updated using the standard Elo update
+rule:
+
+$E_1' = E_1 + K \cdot (S_1 - P_1)$
+
+where $E_1$ and $E_2$ represent the pre-match Elo ratings of Player 1 and
+Player 2 respectively, $S_1 \in \{0,1\}$ is the observed match outcome for
+Player 1, and $K$ is a scaling factor set to 32.  
 
 Secondly, a surface ELO was calculated in the same way as the ELO but only calculating this metric for each player on a specific surface. 

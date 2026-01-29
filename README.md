@@ -1,7 +1,7 @@
 # Historical Tennis Match Outcome Prediction Project
 
 <p align="center">
-  <img src="Figures/Robots_Playing_Tennis.png" width="100">
+  <img src="Figures/Robots_Playing_Tennis.png" width="400">
 </p>
 
 ## Project Overview

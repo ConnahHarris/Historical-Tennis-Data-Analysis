@@ -18,8 +18,7 @@ The data was first cleaned by removing or correcting anomolous entries. The majo
 
 Following the data cleaning, the match entries were ordered chronologically using the start date of the tournament and followed by the round of the tournament ("Q1", "Q2", "Q3", "R128", "R64", "R32", "R16", "QF", "SF", "F"). 
 
-The first objective was to engineer features which could be utilised by the model. The first feature engineered was player's ELO ratings, a tool is most commonly used in chess to rank players based on their relative ability. The equations for calculating ELO are shown below. 
-
+The first objective was to engineer features which could be utilised by the model. The first feature engineered was player's ELO ratings, a tool is most commonly used in chess to rank players based on their relative ability.
 The expected probability of Player 1 winning a match is calculated as:
 
 $P_1 = \frac{1}{1 + 10^{(E_2 - E_1)/400}}$

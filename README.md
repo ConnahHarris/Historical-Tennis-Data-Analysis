@@ -33,3 +33,17 @@ $E_1' = E_1 + K \cdot (S_1 - P_1)$
 Where $S_1 \in \{0,1\}$ indicates if Player 1 won the match, and $K$ is a scaling factor set to 32.  
 
 Secondly, a surface ELO was calculated in the same way as the ELO but only calculating this metric for each player on a specific surface. 
+
+
+
+| | | |
+|:--:|:--:|:--:|
+| ![](age_difference.png) | ![](height_difference.png) | ![](elo_difference.png) |
+| ![](surface_elo_difference) | ![](head_2_head_difference.png) | ![](career_wins_difference.png) |
+
+age_difference.png
+height_difference.png
+elo_difference.png
+surface_elo_difference
+head_2_head_difference.png
+career_wins_difference.png

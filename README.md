@@ -34,16 +34,23 @@ Where $S_1 \in \{0,1\}$ indicates if Player 1 won the match, and $K$ is a scalin
 
 Secondly, a surface ELO was calculated in the same way as the ELO but only calculating this metric for each player on a specific surface. 
 
+<table align="center">
+  <tr>
+    <td><img src="Figures/age_difference.png" width="300"></td>
+    <td><img src="Figures/height_difference.png" width="300"></td>
+    <td><img src="Figures/elo_difference.png" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="Figures/surface_elo_difference.png" width="300"></td>
+    <td><img src="Figures/head_2_head_difference.png" width="300"></td>
+    <td><img src="Figures/career_wins_difference.png" width="300"></td>
+  </tr>
+</table>
 
-
-| | | |
-|:--:|:--:|:--:|
-| ![](Figures/age_difference.png) | ![](Figures/height_difference.png) | ![](Figures/elo_difference.png) |
-| ![](Figures/surface_elo_difference.png) | ![](Figures/head_2_head_difference.png) | ![](Figures/career_wins_difference.png) |
 
 age_difference.png
 height_difference.png
 elo_difference.png
-surface_elo_difference
+surface_elo_difference.png
 head_2_head_difference.png
 career_wins_difference.png

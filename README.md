@@ -18,7 +18,8 @@ The data was first cleaned by removing or correcting anomolous entries. The majo
 
 Following the data cleaning, the match entries were ordered chronologically using the start date of the tournament and followed by the round of the tournament ("Q1", "Q2", "Q3", "R128", "R64", "R32", "R16", "QF", "SF", "F"). 
 
-The first objective was to engineer features which could be utilised by the model. The first feature engineered was player's ELO ratings, a tool is most commonly used in chess to rank players based on their relative ability. Every player without any previous match history has their ELO set to 1500.
+### ELO Calculations
+The first feature engineered was player's ELO ratings, a tool is most commonly used in chess to rank players based on their relative ability. Every player without any previous match history has their ELO set to 1500.
 
 The expected probability of Player 1 winning a match ($P_1$) is calculated as:
 
@@ -48,11 +49,3 @@ Secondly, a surface ELO was calculated in the same way as the ELO but only calcu
     <td><img src="Figures/career_wins_difference.png" width="500"></td>
   </tr>
 </table>
-
-
-age_difference.png
-height_difference.png
-elo_difference.png
-surface_elo_difference.png
-head_2_head_difference.png
-career_wins_difference.png

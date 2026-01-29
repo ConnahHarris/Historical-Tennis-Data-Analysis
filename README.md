@@ -24,15 +24,12 @@ The expected probability of Player 1 winning a match ($P_1$) is calculated as:
 
 $P_1 = \frac{1}{1 + 10^{(E_2 - E_1)/400}}$
 
-Where:
-$E_1$ and $E_2$ represent the pre-match ELO ratings of Player 1 and Player 2 respectively
+Where $E_1$ and $E_2$ represent the pre-match ELO ratings of Player 1 and Player 2 respectively
 
 Following the match, Player's ELO ratings are updated using:
 
 $E_1' = E_1 + K \cdot (S_1 - P_1)$
 
-Where:
-$S_1 \in \{0,1\}$ 1 if Player 1 wins the match.
-$K$ is a scaling factor set to 32.  
+Where $S_1 \in \{0,1\}$ indicates if Player 1 won the match, and $K$ is a scaling factor set to 32.  
 
 Secondly, a surface ELO was calculated in the same way as the ELO but only calculating this metric for each player on a specific surface. 

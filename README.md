@@ -36,16 +36,16 @@ Secondly, a surface ELO was calculated in the same way as the ELO but only calcu
 
 <table align="center">
   <tr>
-    <td><img src="Figures/age_difference.png" width="400"></td>
-    <td><img src="Figures/height_difference.png" width="400"></td>
+    <td><img src="Figures/age_difference.png" width="500"></td>
+    <td><img src="Figures/height_difference.png" width="500"></td>
   </tr>
   <tr>
-    <td><img src="Figures/elo_difference.png" width="400"></td>
-    <td><img src="Figures/surface_elo_difference.png" width="400"></td>
+    <td><img src="Figures/elo_difference.png" width="500"></td>
+    <td><img src="Figures/surface_elo_difference.png" width="500"></td>
   </tr>
   <tr>
-    <td><img src="Figures/head_2_head_difference.png" width="400"></td>
-    <td><img src="Figures/career_wins_difference.png" width="400"></td>
+    <td><img src="Figures/head_2_head_difference.png" width="500"></td>
+    <td><img src="Figures/career_wins_difference.png" width="500"></td>
   </tr>
 </table>
 
